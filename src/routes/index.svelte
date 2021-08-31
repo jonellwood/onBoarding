@@ -32,5 +32,17 @@ Full Time Admin Employee
  {/if}
 
 
+ <style>
+   body{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding: 0;
+     margin: 0;
+   }
+   h1 {
+     color: #ff3e00;
+   }
+
+ </style>
+
 
 
