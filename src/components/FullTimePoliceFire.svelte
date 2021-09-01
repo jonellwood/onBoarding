@@ -24,6 +24,7 @@
 {#each tasks as task}
   <div class:done={task.done}>
     <input
+      class="check12"
       type=checkbox
       bind:checked={task.done}
     >
@@ -40,16 +41,17 @@
 
   <button class=button on:click={add}>Add to list</button>
   <button class=button on:click={clear}>Clear Completed</button>
-  <!-- TODO make this a reset back to starter list -->
+  <br/>
 
   <style>
     .done{
       opacity: 0.4;
 
     }
-    .button{
+    button{
       padding: 10px;
     }
+
 
   </style>
 

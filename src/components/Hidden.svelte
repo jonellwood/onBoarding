@@ -13,8 +13,16 @@
 
 <svelte:options accessors={true}/>
 
-<button on:click={show}>Child's button</button>
+<button on:click={show}>Reset</button>
 
 {#if shown}
   <slot/>
 {/if}
+
+
+<style>
+  button{
+    padding: 10px;
+    color: #ff3e00;
+  }
+</style>
