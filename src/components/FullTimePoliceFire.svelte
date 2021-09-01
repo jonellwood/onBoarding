@@ -38,13 +38,18 @@
 
   <p>{remaining} remaining  </p>
 
-  <button on:click={add}>Add to list</button>
-  <button on:click={clear}>Clear Completed</button>
+  <button class=button on:click={add}>Add to list</button>
+  <button class=button on:click={clear}>Clear Completed</button>
   <!-- TODO make this a reset back to starter list -->
 
   <style>
     .done{
       opacity: 0.4;
+
     }
+    .button{
+      padding: 10px;
+    }
+
   </style>
 
