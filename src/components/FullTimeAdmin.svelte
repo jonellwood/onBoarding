@@ -11,7 +11,7 @@
     { done: false, text: 'Provision Phone' },
     { done: false, text: 'Smart Fusion account set up' },
     { done: false, text: 'Adobe Account Set up' },
-    { done: false, text: 'Provision Phone' },
+    { done: false, text: 'Meet Sam' },
     { done: false, text: 'Website update' },
     { done: false, text: 'Time Clock Plus Setup' },
   ];
